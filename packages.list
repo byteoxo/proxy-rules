@@ -1,0 +1,145 @@
+# Developer package registries, CDNs, and download hosts
+# Route through proxy when direct access from China is slow or unstable.
+# Clash / Surge / Stash: include this file in your rule-providers or proxy group rules.
+
+# --- Git & source hosting ---
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,sourceforge.net
+DOMAIN-SUFFIX,codeberg.org
+DOMAIN-SUFFIX,sr.ht
+
+# --- Node / npm / yarn / pnpm ---
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,yarnpkg.com
+DOMAIN-SUFFIX,pnpm.io
+DOMAIN-SUFFIX,nodejs.org
+DOMAIN-SUFFIX,nodesource.com
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,esm.sh
+DOMAIN-SUFFIX,skypack.dev
+
+# --- Bun ---
+DOMAIN-SUFFIX,bun.sh
+DOMAIN-SUFFIX,bun.com
+
+# --- Deno / JSR ---
+DOMAIN-SUFFIX,deno.land
+DOMAIN-SUFFIX,deno.com
+DOMAIN-SUFFIX,deno.dev
+DOMAIN-SUFFIX,jsr.io
+
+# --- Rust / Cargo ---
+DOMAIN-SUFFIX,crates.io
+DOMAIN-SUFFIX,rust-lang.org
+DOMAIN-SUFFIX,rustup.rs
+DOMAIN-SUFFIX,docs.rs
+
+# --- Go ---
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,goproxy.io
+DOMAIN-SUFFIX,sum.golang.org
+
+# --- Python ---
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,anaconda.org
+DOMAIN-SUFFIX,conda-forge.org
+
+# --- Java / JVM (Maven, Gradle, Kotlin) ---
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,mvnrepository.com
+DOMAIN-SUFFIX,sonatype.org
+DOMAIN-SUFFIX,gradle.org
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,kotlinlang.org
+DOMAIN-SUFFIX,spring.io
+DOMAIN-SUFFIX,jboss.org
+
+# --- Ruby ---
+DOMAIN-SUFFIX,rubygems.org
+DOMAIN-SUFFIX,ruby-lang.org
+
+# --- PHP ---
+DOMAIN-SUFFIX,packagist.org
+
+# --- .NET / NuGet ---
+DOMAIN-SUFFIX,nuget.org
+DOMAIN-SUFFIX,dotnet.microsoft.com
+DOMAIN-SUFFIX,microsoft.com
+
+# --- Dart / Flutter ---
+DOMAIN-SUFFIX,pub.dev
+DOMAIN-SUFFIX,dartlang.org
+DOMAIN-SUFFIX,flutter.dev
+
+# --- Elixir / Haskell / R ---
+DOMAIN-SUFFIX,hex.pm
+DOMAIN-SUFFIX,hackage.haskell.org
+DOMAIN-SUFFIX,haskell.org
+DOMAIN-SUFFIX,r-project.org
+
+# --- iOS / macOS / Apple developer ---
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,cocoapods.org
+DOMAIN-SUFFIX,swift.org
+
+# --- Android SDK / Google build tooling ---
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,maven.google.com
+DOMAIN-SUFFIX,dl.google.com
+
+# --- Web fonts & front-end CDNs ---
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fastlylb.net
+DOMAIN-SUFFIX,cdnjs.com
+DOMAIN-SUFFIX,bootstrapcdn.com
+DOMAIN-SUFFIX,fontawesome.com
+
+# --- Containers & OCI registries ---
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,quay.io
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,azurecr.io
+
+# --- Homebrew (macOS) ---
+DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,homebrew.bintray.com
+
+# --- IDE extensions & tooling ---
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,marketplace.visualstudio.com
+DOMAIN-SUFFIX,open-vsx.org
+DOMAIN-SUFFIX,hashicorp.com
+DOMAIN-SUFFIX,terraform.io
+DOMAIN-SUFFIX,pulumi.com
+
+# --- Docs / misc registries often hit during installs ---
+DOMAIN-SUFFIX,apache.org
+DOMAIN-SUFFIX,eclipse.org
+DOMAIN-SUFFIX,kernel.org
+DOMAIN-SUFFIX,unicode.org
+DOMAIN-SUFFIX,w3.org
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,nixos.org
