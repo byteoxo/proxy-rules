@@ -1,0 +1,4 @@
+# Perpetuals: Banned or restricted US, UK, and Hong Kong
+# jp, taiwan
+DOMAIN-SUFFIX,trustwallet.com
+
