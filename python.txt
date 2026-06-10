@@ -1,0 +1,6 @@
+# --- Python ---
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,anaconda.org
+DOMAIN-SUFFIX,conda-forge.org

@@ -75,7 +75,6 @@ DOMAIN-SUFFIX,packagist.org
 # --- .NET / NuGet ---
 DOMAIN-SUFFIX,nuget.org
 DOMAIN-SUFFIX,dotnet.microsoft.com
-DOMAIN-SUFFIX,microsoft.com
 
 # --- Dart / Flutter ---
 DOMAIN-SUFFIX,pub.dev
@@ -89,13 +88,10 @@ DOMAIN-SUFFIX,haskell.org
 DOMAIN-SUFFIX,r-project.org
 
 # --- iOS / macOS / Apple developer ---
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cocoapods.org
 DOMAIN-SUFFIX,swift.org
 
 # --- Android SDK / Google build tooling ---
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,android.com

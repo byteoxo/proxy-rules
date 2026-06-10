@@ -1,0 +1,9 @@
+# --- Java / JVM (Maven, Gradle, Kotlin) ---
+DOMAIN-SUFFIX,maven.org
+DOMAIN-SUFFIX,mvnrepository.com
+DOMAIN-SUFFIX,sonatype.org
+DOMAIN-SUFFIX,gradle.org
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,kotlinlang.org
+DOMAIN-SUFFIX,spring.io
+DOMAIN-SUFFIX,jboss.org
