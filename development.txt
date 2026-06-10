@@ -139,3 +139,7 @@ DOMAIN-SUFFIX,w3.org
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,nixos.org
+
+# vite
+DOMAIN-SUFFIX,vite.dev
+DOMAIN-SUFFIX,viteplus.dev
