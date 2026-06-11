@@ -143,3 +143,7 @@ DOMAIN-SUFFIX,nixos.org
 # vite
 DOMAIN-SUFFIX,vite.dev
 DOMAIN-SUFFIX,viteplus.dev
+
+# ngrok
+DOMAIN-SUFFIX,ngrok.com
+DOMAIN-SUFFIX,ngrok.dev
