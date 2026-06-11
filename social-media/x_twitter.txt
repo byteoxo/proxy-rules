@@ -1,0 +1,25 @@
+# === X / Twitter Global Domains ===
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,vine.co
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,xcorp
+
+# === X Infrastructure & Media Edge IPs ===
+# X routes real-time timelines and media delivery through its own edge networks 
+# paired with major global CDN layers.
+IP-CIDR,104.244.42.0/24,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+
+# === Associated ASNs (X Corp Network Footprint) ===
+IP-ASN,13414,no-resolve
+
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,Twitter,no-resolve
+PROCESS-NAME,X,no-resolve

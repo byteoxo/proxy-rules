@@ -1,4 +1,27 @@
 # Perpetuals: Banned or restricted US, UK, and Hong Kong
 # jp, taiwan
+# === Trust Wallet Global Domains ===
 DOMAIN-SUFFIX,trustwallet.com
+DOMAIN-SUFFIX,trustwallet.com
+DOMAIN-SUFFIX,trustwalletapp.com
+DOMAIN-SUFFIX,link.trustwallet.com
+DOMAIN-SUFFIX,wallet-core.trustwallet.com
+DOMAIN-SUFFIX,developer.trustwallet.com
+DOMAIN-SUFFIX,trustwallet.github.io
+DOMAIN-KEYWORD,trustwallet
+
+# === Trust Wallet Infrastructure & Content CDNs ===
+# Trust Wallet heavily queries its GitHub asset repository and cloud CDNs 
+# to fetch real-time token graphics, contract data, and dApp browser metadata.
+IP-CIDR,104.18.22.0/20,no-resolve
+IP-CIDR,172.64.147.0/24,no-resolve
+IP-CIDR,185.199.108.0/22,no-resolve
+
+# === Associated ASNs (Cloudflare / GitHub Pages Anycast) ===
+IP-ASN,13335,no-resolve
+IP-ASN,36459,no-resolve
+
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,Trust,no-resolve
+PROCESS-NAME,TrustWallet,no-resolve
 

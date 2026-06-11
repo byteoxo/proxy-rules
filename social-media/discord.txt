@@ -1,2 +1,22 @@
-DOMAIN-SUFFIX,discordapp.net
+# === Discord Global Domains ===
 DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-KEYWORD,discord
+
+# === Discord Voice & Video Edge Infrastructure (Cloudflare / Custom Edge) ===
+# Discord routes real-time chat updates and media uploads via Cloudflare Anycast networks, 
+# while individual voice channels utilize regional voice server IP networks.
+IP-CIDR,104.16.58.0/24,no-resolve
+IP-CIDR,104.16.59.0/24,no-resolve
+IP-CIDR,162.159.128.0/20,no-resolve
+
+# === Associated ASNs (Cloudflare / Discord Edge Routing) ===
+IP-ASN,13335,no-resolve
+
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,Discord,no-resolve
