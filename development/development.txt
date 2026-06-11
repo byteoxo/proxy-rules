@@ -147,3 +147,8 @@ DOMAIN-SUFFIX,viteplus.dev
 # ngrok
 DOMAIN-SUFFIX,ngrok.com
 DOMAIN-SUFFIX,ngrok.dev
+
+# gitbook
+DOMAIN-SUFFIX,gitbook.com
+DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,gitbook.zendesk.com
