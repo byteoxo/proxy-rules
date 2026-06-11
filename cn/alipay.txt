@@ -1,0 +1,25 @@
+# === Alipay Primary Domains ===
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,alipay.cn
+DOMAIN-SUFFIX,alipaylog.com
+DOMAIN-SUFFIX,alipayeshop.com
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,antfinancial.com
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,openapi.alipay
+
+# === Alipay & Ant Group Infrastructure (Alibaba Cloud / Domestic CDNs) ===
+# These IP ranges handle high-volume transactional data, facial recognition authentication, and real-time ledger settlement.
+IP-CIDR,110.75.0.0/16,no-resolve
+IP-CIDR,114.55.0.0/16,no-resolve
+IP-CIDR,115.124.0.0/16,no-resolve
+IP-CIDR,140.205.0.0/16,no-resolve
+
+# === Associated ASNs (Alibaba Cloud / Ant Group Mainland Traffic) ===
+IP-ASN,37963,no-resolve
+IP-ASN,9808,no-resolve
+
+# === Process Names (Client-side matching) ===
+PROCESS-NAME,Alipay,no-resolve
+PROCESS-NAME,com.eg.android.AlipayGphone,no-resolve
