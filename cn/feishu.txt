@@ -1,1 +1,2 @@
 DOMAIN-SUFFIX,feishu.cn
+PROCESS-NAME,/Applications/Feishu.app/
