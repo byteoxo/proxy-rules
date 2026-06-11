@@ -16,4 +16,4 @@ DOMAIN-SUFFIX,amapauto.com
 DOMAIN-SUFFIX,anav.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,gaode.com
-
+DOMAIN-SUFFIX,qchannel01.cn
