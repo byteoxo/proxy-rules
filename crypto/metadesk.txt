@@ -19,8 +19,5 @@ IP-CIDR,104.18.24.0/24,no-resolve
 IP-CIDR,104.18.25.0/24,no-resolve
 IP-CIDR,172.64.154.0/24,no-resolve
 
-# === Associated ASNs (Cloudflare / Consensys Network Layers) ===
-IP-ASN,13335,no-resolve
-
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,MetaMask,no-resolve
