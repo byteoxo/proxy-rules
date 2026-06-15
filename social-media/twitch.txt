@@ -19,8 +19,8 @@ IP-CIDR,192.108.239.0/24,no-resolve
 IP-CIDR,199.9.248.0/21,no-resolve
 
 # === Associated ASNs (Twitch / Amazon Web Services) ===
-IP-ASN,46489,no-resolve
-IP-ASN,16509,no-resolve
+# IP-ASN,46489,no-resolve
+# IP-ASN,16509,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Twitch,no-resolve

@@ -14,7 +14,7 @@ IP-CIDR,104.18.3.0/24,no-resolve
 IP-CIDR,172.64.150.0/24,no-resolve
 
 # === Associated Cloudflare ASN ===
-IP-ASN,13335,no-resolve
+# IP-ASN,13335,no-resolve
 
 # === Process Name (Optional client-side matching for mobile apps) ===
 PROCESS-NAME,Hyperliquid,no-resolve

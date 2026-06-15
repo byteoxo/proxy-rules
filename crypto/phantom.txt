@@ -16,7 +16,7 @@ IP-CIDR,104.18.29.0/24,no-resolve
 IP-CIDR,172.64.155.0/24,no-resolve
 
 # === Associated ASNs ===
-IP-ASN,13335,no-resolve
+# IP-ASN,13335,no-resolve
 
 # === Process Name (Optional client-side matching for mobile apps) ===
 PROCESS-NAME,Phantom,no-resolve

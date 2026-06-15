@@ -24,7 +24,7 @@ IP-CIDR,104.18.16.0/20,no-resolve
 IP-CIDR,172.64.144.0/20,no-resolve
 
 # === Associated ASNs (Cloudflare Proxy Traffic) ===
-IP-ASN,13335,no-resolve
+# IP-ASN,13335,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Bybit,no-resolve

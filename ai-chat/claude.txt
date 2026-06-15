@@ -18,8 +18,8 @@ IP-CIDR,172.64.146.0/24,no-resolve
 IP-CIDR,18.204.0.0/14,no-resolve
 
 # === Associated ASNs ===
-IP-ASN,13335,no-resolve
-IP-ASN,16509,no-resolve
+# IP-ASN,13335,no-resolve
+# IP-ASN,16509,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Claude,no-resolve

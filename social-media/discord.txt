@@ -16,7 +16,7 @@ IP-CIDR,104.16.59.0/24,no-resolve
 IP-CIDR,162.159.128.0/20,no-resolve
 
 # === Associated ASNs (Cloudflare / Discord Edge Routing) ===
-IP-ASN,13335,no-resolve
+# IP-ASN,13335,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Discord,no-resolve

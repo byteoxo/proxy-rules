@@ -17,8 +17,8 @@ IP-CIDR,104.18.33.0/24,no-resolve
 IP-CIDR,54.175.255.0/24,no-resolve
 
 # === Associated ASNs (Cloudflare / AWS CloudFront Routing) ===
-IP-ASN,13335,no-resolve
-IP-ASN,16509,no-resolve
+# IP-ASN,13335,no-resolve
+# IP-ASN,16509,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Coinbase,no-resolve

@@ -18,8 +18,8 @@ IP-CIDR,172.64.147.0/24,no-resolve
 IP-CIDR,185.199.108.0/22,no-resolve
 
 # === Associated ASNs (Cloudflare / GitHub Pages Anycast) ===
-IP-ASN,13335,no-resolve
-IP-ASN,36459,no-resolve
+# IP-ASN,13335,no-resolve
+# IP-ASN,36459,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Trust,no-resolve

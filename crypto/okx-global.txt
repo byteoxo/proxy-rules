@@ -21,8 +21,8 @@ IP-CIDR,151.101.65.69/32,no-resolve
 
 # === OKX Primary Autonomous System Numbers (ASNs) ===
 # Fastly & Cloudflare infrastructure footprints handling crypto exchange traffic
-IP-ASN,13335,no-resolve
-IP-ASN,54113,no-resolve
+# IP-ASN,13335,no-resolve
+# IP-ASN,54113,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,OKX,no-resolve

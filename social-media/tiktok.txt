@@ -39,8 +39,8 @@ IP-CIDR,13.125.127.0/24,no-resolve
 IP-CIDR,161.117.0.0/16,no-resolve
 
 # === Associated ASNs (ByteDance / TikTok Global Edge) ===
-IP-ASN,138699,no-resolve
-IP-ASN,396986,no-resolve
+# IP-ASN,138699,no-resolve
+# IP-ASN,396986,no-resolve
 
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,TikTok,no-resolve
