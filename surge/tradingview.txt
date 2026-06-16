@@ -1,1 +1,4 @@
 DOMAIN-SUFFIX,tradingview.com
+PROCESS-NAME,/Applications/TradingView.app/
+PROCESS-NAME,TradingView
+
