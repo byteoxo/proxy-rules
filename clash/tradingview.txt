@@ -1,1 +1,4 @@
 DOMAIN-SUFFIX,tradingview.com
+PROCESS-PATH,/Applications/TradingView.app/Contents/Frameworks/TradingView Helper.app/Contents/MacOS/TradingView Helper
+PROCESS-PATH,/Applications/TradingView.app/Contents/Frameworks/TradingView Helper.app/Contents/MacOS/TradingView
+PROCESS-NAME,TradingView
