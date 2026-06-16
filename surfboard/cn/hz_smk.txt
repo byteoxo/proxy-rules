@@ -9,3 +9,4 @@ DOMAIN-SUFFIX,zjzwfw.gov.cn
 DOMAIN-SUFFIX,iconntech.com
 DOMAIN-SUFFIX,umeng.com
 IP-CIDR,27.44.204.227,no-resolve
+PROCESS-NAME,com.smk
