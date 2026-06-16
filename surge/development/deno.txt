@@ -1,0 +1,5 @@
+# --- Deno / JSR ---
+DOMAIN-SUFFIX,deno.land
+DOMAIN-SUFFIX,deno.com
+DOMAIN-SUFFIX,deno.dev
+DOMAIN-SUFFIX,jsr.io

@@ -1,0 +1,10 @@
+# name: rednote, xiaohongshu
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xiaohongshu.cn
+DOMAIN-SUFFIX,xhslink.com
+IP-CIDR,101.71.148.0/24
+IP-CIDR,101.227.139.0/24
+IP-CIDR,119.23.246.73
+IP-CIDR,47.96.20.0/24

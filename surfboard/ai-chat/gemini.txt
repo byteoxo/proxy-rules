@@ -1,0 +1,27 @@
+# === Google Gemini Web & App Domains ===
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-KEYWORD,gemini
+
+# === Google AI Core APIs & Backends (Vertex AI & Vertex Pipeline) ===
+# These endpoints handle API requests, model tuning, and developer playground traffic
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,googleapis.com/v1/models
+DOMAIN-SUFFIX,vertexai.googleapis.com
+DOMAIN-SUFFIX,notebooks.googleapis.com
+
+# === Google Global Infrastructure & Anycast IPs ===
+# Gemini leverages Google's global primary network architecture (Google LLC)
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
+
+# === Associated ASNs (Google Edge Network) ===
+# IP-ASN,15169,no-resolve
+
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,Gemini,no-resolve

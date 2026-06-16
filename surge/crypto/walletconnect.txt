@@ -1,0 +1,21 @@
+# === WalletConnect Infrastructure & Relay Domains ===
+DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-SUFFIX,walletconnect.com
+DOMAIN-SUFFIX,walletconnect.network
+DOMAIN-SUFFIX,wc-blockchain-api.com
+DOMAIN-SUFFIX,verify.walletconnect.org
+DOMAIN-SUFFIX,verify.walletconnect.com
+DOMAIN-SUFFIX,relay.walletconnect.org
+DOMAIN-SUFFIX,relay.walletconnect.com
+DOMAIN-SUFFIX,explorer-api.walletconnect.com
+DOMAIN-KEYWORD,walletconnect
+
+# === WalletConnect Infrastructure IPs (Cloudflare Edge / AWS Relay Layers) ===
+# WalletConnect's cloud routers rely on distributed Anycast networks to maintain 
+# real-time WebSocket state connections for dApps:
+# IP-CIDR,104.18.26.0/24,no-resolve
+# IP-CIDR,104.18.27.0/24,no-resolve
+# IP-CIDR,172.64.149.0/24,no-resolve
+
+# === Associated ASNs (Cloudflare Proxy Traffic) ===
+# IP-ASN,13335,no-resolve

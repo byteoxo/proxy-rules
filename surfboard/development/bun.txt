@@ -1,0 +1,3 @@
+# --- Bun ---
+DOMAIN-SUFFIX,bun.sh
+DOMAIN-SUFFIX,bun.com

@@ -1,0 +1,20 @@
+# === Hyperliquid Global Domains ===
+DOMAIN-SUFFIX,hyperliquid.xyz
+DOMAIN-SUFFIX,hyperliquid-testnet.xyz
+DOMAIN-SUFFIX,hyperfoundation.org
+DOMAIN-SUFFIX,hyperliquid.gitbook.io
+DOMAIN-SUFFIX,hyperliquid.zendesk.com
+DOMAIN-KEYWORD,hyperliquid
+
+# === Hyperliquid Infrastructure, WebSockets & CDN Edge IPs ===
+# Hyperliquid routes real-time market data streams, gRPC, and REST layers via Cloudflare 
+# Anycast networks paired with high-performance edge nodes (primarily in Singapore/Tokyo).
+IP-CIDR,104.18.2.0/24,no-resolve
+IP-CIDR,104.18.3.0/24,no-resolve
+IP-CIDR,172.64.150.0/24,no-resolve
+
+# === Associated Cloudflare ASN ===
+# IP-ASN,13335,no-resolve
+
+# === Process Name (Optional client-side matching for mobile apps) ===
+PROCESS-NAME,Hyperliquid,no-resolve

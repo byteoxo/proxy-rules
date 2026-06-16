@@ -1,0 +1,30 @@
+# === Bybit Global Domains ===
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-exchange.github.io
+DOMAIN-KEYWORD,bybit
+DOMAIN-KEYWORD,bytick
+
+# === Bybit Infrastructure & CDN Footprints ===
+# Bybit uses heavily distributed Anycast networks (via Cloudflare/Akamai/Fastly) 
+# for geo-routing. The keyword rules above cover most, but these are common edge IP fragments:
+IP-CIDR,104.18.16.0/20,no-resolve
+IP-CIDR,172.64.144.0/20,no-resolve
+
+# === Associated ASNs (Cloudflare Proxy Traffic) ===
+# IP-ASN,13335,no-resolve
+
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,Bybit,no-resolve

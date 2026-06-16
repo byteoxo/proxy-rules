@@ -13,8 +13,8 @@ rule-providers:
   proxy-rules-openai:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/byteoxo/proxy-rules/main/openai.txt
-    path: ./ruleset/openai.txt
+    url: https://raw.githubusercontent.com/byteoxo/proxy-rules/main/surge/ai-chat/openai.txt
+    path: ./ruleset/surge/ai-chat/openai.txt
     interval: 86400
 
 rules:
@@ -28,8 +28,8 @@ Use a `file` provider instead of `http` if you clone this repo locally.
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/byteoxo/proxy-rules/main/development/development.txt,PROXY
-RULE-SET,https://raw.githubusercontent.com/byteoxo/proxy-rules/main/cn/wechat.txt,DIRECT
+RULE-SET,https://raw.githubusercontent.com/byteoxo/proxy-rules/main/surge/development/development.txt,PROXY
+RULE-SET,https://raw.githubusercontent.com/byteoxo/proxy-rules/main/surge/cn/wechat.txt,DIRECT
 FINAL,DIRECT
 ```
 
@@ -39,21 +39,23 @@ Stash supports the same `RULE-SET` URL pattern as Surge for classical rule lists
 
 ## Repository layout
 
+All rule files are now organized under `surge/`.
+
 | Path | Purpose |
 |------|---------|
-| `openai.txt` | OpenAI / ChatGPT and related CDNs, APIs, and infra |
-| `ai.txt` | Other AI services (e.g. Mistral) |
-| `cursor.txt` | Cursor IDE domains and macOS process rule |
-| `zed.txt` | Zed editor |
-| `arc_browser.txt` | Arc browser |
-| `tradingview.txt` | TradingView |
-| `russia.txt` | `.ru` TLD suffix |
-| `development/` | Package registries, Git hosts, language ecosystems |
-| `cn/` | China domestic services — typically paired with `DIRECT` |
-| `social-media/` | Discord, Bluesky, etc. |
-| `crypto/` | Wallet and Web3 tooling |
+| `surge/ai-chat/openai.txt` | OpenAI / ChatGPT and related CDNs, APIs, and infra |
+| `surge/ai.txt` | Other AI services (e.g. Mistral) |
+| `surge/cursor.txt` | Cursor IDE domains and macOS process rule |
+| `surge/zed.txt` | Zed editor |
+| `surge/arc_browser.txt` | Arc browser |
+| `surge/tradingview.txt` | TradingView |
+| `surge/russia.txt` | `.ru` TLD suffix |
+| `surge/development/` | Package registries, Git hosts, language ecosystems |
+| `surge/cn/` | China domestic services — typically paired with `DIRECT` |
+| `surge/social-media/` | Discord, Bluesky, etc. |
+| `surge/crypto/` | Wallet and Web3 tooling |
 
-### `development/`
+### `surge/development/`
 
 | File | Contents |
 |------|----------|
@@ -67,7 +69,7 @@ Stash supports the same `RULE-SET` URL pattern as Surge for classical rule lists
 
 Pick the umbrella file for broad coverage, or include only the slices you need to avoid rule bloat.
 
-### `cn/`
+### `surge/cn/`
 
 These lists are meant for **direct** (non-proxy) routing:
 
@@ -78,7 +80,7 @@ These lists are meant for **direct** (non-proxy) routing:
 | `feishu.txt` | Feishu / Lark |
 | `package.txt` | Domestic mirrors (e.g. `npmmirror.com`) |
 
-Place `cn/*` rules **above** your catch-all proxy rules so domestic traffic stays local.
+Place `surge/cn/*` rules **above** your catch-all proxy rules so domestic traffic stays local.
 
 ## Rule format
 
@@ -103,10 +105,10 @@ IP-ASN,13335,no-resolve
 
 | Rule set | Typical policy | Why |
 |----------|----------------|-----|
-| `openai.txt`, `ai.txt`, `cursor.txt`, `development/*` | `PROXY` | Foreign or blocked / slow services |
-| `cn/wechat.txt`, `cn/12306.txt`, `cn/package.txt` | `DIRECT` | Domestic services and mirrors |
-| `cn/feishu.txt` | `DIRECT` | Local app + `.cn` domains |
-| `social-media/*`, `crypto/*` | `PROXY` | Usually accessed via proxy |
+| `surge/ai-chat/openai.txt`, `surge/ai.txt`, `surge/cursor.txt`, `surge/development/*` | `PROXY` | Foreign or blocked / slow services |
+| `surge/cn/wechat.txt`, `surge/cn/12306.txt`, `surge/cn/package.txt` | `DIRECT` | Domestic services and mirrors |
+| `surge/cn/feishu.txt` | `DIRECT` | Local app + `.cn` domains |
+| `surge/social-media/*`, `surge/crypto/*` | `PROXY` | Usually accessed via proxy |
 
 Adjust to your network — these are conventions, not requirements.
 

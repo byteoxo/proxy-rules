@@ -1,0 +1,22 @@
+# === Phantom Wallet Global Domains ===
+DOMAIN-SUFFIX,phantom.com
+DOMAIN-SUFFIX,phantom.app
+DOMAIN-SUFFIX,api.phantom.app
+DOMAIN-SUFFIX,phantomtech.io
+DOMAIN-SUFFIX,phantom-technologies.com
+DOMAIN-SUFFIX,phantom.github.io
+DOMAIN-KEYWORD,phantom
+DOMAIN-KEYWORD,phantomwallet
+
+# === Phantom Built-in Infrastructure & Edge IPs ===
+# Phantom uses high-performance Cloudflare and cloud provider pathways 
+# for real-time asset pricing, token balance scanning, and transaction simulation previews.
+IP-CIDR,104.18.28.0/24,no-resolve
+IP-CIDR,104.18.29.0/24,no-resolve
+IP-CIDR,172.64.155.0/24,no-resolve
+
+# === Associated ASNs ===
+# IP-ASN,13335,no-resolve
+
+# === Process Name (Optional client-side matching for mobile apps) ===
+PROCESS-NAME,Phantom,no-resolve

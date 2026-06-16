@@ -1,0 +1,5 @@
+# --- Rust / Cargo ---
+DOMAIN-SUFFIX,crates.io
+DOMAIN-SUFFIX,rust-lang.org
+DOMAIN-SUFFIX,rustup.rs
+DOMAIN-SUFFIX,docs.rs

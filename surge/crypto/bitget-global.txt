@@ -1,0 +1,22 @@
+# === Bitget Global Domains ===
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.io
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitgetglobal.com
+DOMAIN-SUFFIX,bgwapi.com
+DOMAIN-SUFFIX,bitgetimg.com
+DOMAIN-SUFFIX,bitgetcdn.com
+DOMAIN-SUFFIX,bitget-exchange.github.io
+DOMAIN-KEYWORD,bitget
+
+# === Bitget Infrastructure & Cloud IP Ranges ===
+# Bitget relies heavily on Cloudflare Anycast and fast edge routing layers:
+IP-CIDR,104.18.32.0/20,no-resolve
+IP-CIDR,172.64.155.0/24,no-resolve
+IP-CIDR,172.67.13.0/24,no-resolve
+
+# === Associated ASNs (Cloudflare Infrastructure Layers) ===
+# IP-ASN,13335,no-resolve
+
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,Bitget,no-resolve

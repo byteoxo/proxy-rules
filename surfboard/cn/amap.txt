@@ -1,0 +1,19 @@
+# name: Gaode, 高德, Amap
+DOMAIN-SUFFIX,restapi.amap.com
+DOMAIN-SUFFIX,webapi.amap.com
+DOMAIN-SUFFIX,vdata.amap.com
+DOMAIN-SUFFIX,is.autonavi.com
+DOMAIN-SUFFIX,surl.amap.com
+DOMAIN-SUFFIX,bs.amap.com
+DOMAIN-SUFFIX,cn.apihz.cn
+DOMAIN-SUFFIX,console.amap.com
+DOMAIN-SUFFIX,a-map.cn
+DOMAIN-SUFFIX,a-map.co
+DOMAIN-SUFFIX,a-map.link
+DOMAIN-SUFFIX,a-map.vip
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,amapauto.com
+DOMAIN-SUFFIX,anav.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,gaode.com
+DOMAIN-SUFFIX,qchannel01.cn

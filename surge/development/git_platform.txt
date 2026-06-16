@@ -1,0 +1,4 @@
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,sourceforge.net
+DOMAIN-SUFFIX,codeberg.org
+DOMAIN-SUFFIX,sr.ht

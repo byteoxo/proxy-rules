@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+PROCESS-NAME,/Applications/Cursor.app/
+

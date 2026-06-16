@@ -1,0 +1,5 @@
+# --- Go ---
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,goproxy.io
+DOMAIN-SUFFIX,sum.golang.org
