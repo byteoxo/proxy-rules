@@ -1,0 +1,11 @@
+# name: 杭州市民卡
+# pagekage name: com.smk
+DOMAIN-SUFFIX,open.iconntech.com
+DOMAIN-SUFFIX,ulogs.umeng.com
+DOMAIN-SUFFIX,hzrcm.cn
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,96225.com
+DOMAIN-SUFFIX,zjzwfw.gov.cn
+DOMAIN-SUFFIX,iconntech.com
+DOMAIN-SUFFIX,umeng.com
+IP-CIDR,27.44.204.227,no-resolve
