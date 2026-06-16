@@ -13,9 +13,9 @@ DOMAIN-KEYWORD,walletconnect
 # === WalletConnect Infrastructure IPs (Cloudflare Edge / AWS Relay Layers) ===
 # WalletConnect's cloud routers rely on distributed Anycast networks to maintain 
 # real-time WebSocket state connections for dApps:
-IP-CIDR,104.18.26.0/24,no-resolve
-IP-CIDR,104.18.27.0/24,no-resolve
-IP-CIDR,172.64.149.0/24,no-resolve
+# IP-CIDR,104.18.26.0/24,no-resolve
+# IP-CIDR,104.18.27.0/24,no-resolve
+# IP-CIDR,172.64.149.0/24,no-resolve
 
 # === Associated ASNs (Cloudflare Proxy Traffic) ===
-IP-ASN,13335,no-resolve
+# IP-ASN,13335,no-resolve
