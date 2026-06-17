@@ -1,3 +1,4 @@
+PROCESS-NAME,xyz.blueskyweb.app
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.social
 DOMAIN-SUFFIX,bsky.network

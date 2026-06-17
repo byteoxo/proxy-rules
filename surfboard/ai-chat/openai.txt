@@ -1,4 +1,5 @@
 # OpenAI
+PROCESS-NAME,com.openai.chatgpt
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
@@ -28,7 +29,5 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-# IP-ASN,20473,no-resolve
-PROCESS-NAME,/Applications/ChatGpt.app/
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32

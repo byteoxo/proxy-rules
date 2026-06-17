@@ -1,2 +1,2 @@
-DOMAIN-SUFFIX,tradingview.com
 PROCESS-NAME,com.tradingview.tradingviewapp
+OMAIN-SUFFIX,tradingview.com

@@ -1,3 +1,6 @@
+# === Process Name (Optional client-side matching) ===
+PROCESS-NAME,tv.twitch.android.app
+
 # === Twitch Global Domains ===
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
@@ -13,14 +16,7 @@ DOMAIN-KEYWORD,ttvnw
 # === Twitch Core Infrastructure & Video Delivery IPs ===
 # Twitch relies heavily on Amazon's edge backbone and their own specialized 
 # streaming server subnets. 
-IP-CIDR,103.53.48.0/23,no-resolve
-IP-CIDR,185.42.204.0/22,no-resolve
-IP-CIDR,192.108.239.0/24,no-resolve
-IP-CIDR,199.9.248.0/21,no-resolve
-
-# === Associated ASNs (Twitch / Amazon Web Services) ===
-# IP-ASN,46489,no-resolve
-# IP-ASN,16509,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,Twitch,no-resolve
+IP-CIDR,103.53.48.0/23
+IP-CIDR,185.42.204.0/22
+IP-CIDR,192.108.239.0/24
+IP-CIDR,199.9.248.0/21

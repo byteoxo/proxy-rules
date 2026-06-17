@@ -1,4 +1,5 @@
-# name: Gaode, 高德, Amap
+# name: 高德, Amap
+PROCESS-NAME,com.autonavi.minimap
 DOMAIN-SUFFIX,restapi.amap.com
 DOMAIN-SUFFIX,webapi.amap.com
 DOMAIN-SUFFIX,vdata.amap.com

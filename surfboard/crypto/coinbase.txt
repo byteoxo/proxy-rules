@@ -1,4 +1,4 @@
-# === Coinbase Global Domains ===
+PROCESS-NAME,com.coinbase.app
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,coinbase.pro
 DOMAIN-SUFFIX,prime.coinbase.com
@@ -8,17 +8,6 @@ DOMAIN-SUFFIX,coinbasecloud.dev
 DOMAIN-SUFFIX,base.org
 DOMAIN-SUFFIX,developer.coinbase.com
 DOMAIN-KEYWORD,coinbase
-
-# === Coinbase Infrastructure & Anycast Edge IPs ===
-# Coinbase distributes their real-time application pipelines across 
-# Cloudflare Anycast security routing and Amazon CloudFront.
-IP-CIDR,172.64.145.0/24,no-resolve
-IP-CIDR,104.18.33.0/24,no-resolve
-IP-CIDR,54.175.255.0/24,no-resolve
-
-# === Associated ASNs (Cloudflare / AWS CloudFront Routing) ===
-# IP-ASN,13335,no-resolve
-# IP-ASN,16509,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,Coinbase,no-resolve
+IP-CIDR,172.64.145.0/24
+IP-CIDR,104.18.33.0/24
+IP-CIDR,54.175.255.0/24

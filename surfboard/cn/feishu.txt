@@ -1,3 +1,5 @@
+PROCESS-NAME,com.ss.android.lark
+
 # === Feishu Primary Domestic Domains ===
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishucdn.com
@@ -19,17 +21,12 @@ DOMAIN-SUFFIX,mx3.feishu.cn
 
 # === Mainland Infrastructure & Core IP Ranges ===
 # ByteDance and Alibaba Cloud mainland routing pipelines serving Feishu traffic
-IP-CIDR,39.105.247.0/25,no-resolve
-IP-CIDR,39.105.254.0/24,no-resolve
-IP-CIDR,47.113.76.128/25,no-resolve
-IP-CIDR,47.113.77.0/24,no-resolve
-IP-CIDR,47.113.78.0/24,no-resolve
-IP-CIDR,101.133.204.0/24,no-resolve
-IP-CIDR,120.201.5.0/25,no-resolve
-IP-CIDR,123.184.46.0/25,no-resolve
-IP-CIDR,61.189.2.0/25,no-resolve
-
-# === Process Names (Client-side matching) ===
-PROCESS-NAME,Feishu,no-resolve
-PROCESS-NAME,Feishu.exe,no-resolve
-PROCESS-NAME,/Applications/Feishu.app/
+IP-CIDR,39.105.247.0/25
+IP-CIDR,39.105.254.0/24
+IP-CIDR,47.113.76.128/25
+IP-CIDR,47.113.77.0/24
+IP-CIDR,47.113.78.0/24
+IP-CIDR,101.133.204.0/24
+IP-CIDR,120.201.5.0/25
+IP-CIDR,123.184.46.0/25
+IP-CIDR,61.189.2.0/25

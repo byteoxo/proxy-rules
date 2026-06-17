@@ -1,3 +1,6 @@
+# === Process Name (Optional client-side matching for Uniswap Wallet) ===
+PROCESS-NAME,com.uniswap.app
+
 # === Uniswap Global Domains ===
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,uniswap.exchange
@@ -15,19 +18,3 @@ DOMAIN-SUFFIX,api.uniswap.org
 DOMAIN-SUFFIX,routing.uniswap.org
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,pinata.cloud
-
-# === Uniswap Infrastructure & Cloud Edge IPs ===
-# Uniswap relies on Cloudflare's IPFS gateway layers and Amazon Web Services (AWS) 
-# to spin up real-time token liquidity graphs and quote estimates.
-IP-CIDR,104.18.22.0/20,no-resolve
-IP-CIDR,104.24.0.0/14,no-resolve
-IP-CIDR,172.64.147.0/24,no-resolve
-IP-CIDR,185.199.108.0/22,no-resolve
-
-# === Associated ASNs (Cloudflare / GitHub / AWS) ===
-# IP-ASN,13335,no-resolve
-# IP-ASN,36459,no-resolve
-# IP-ASN,16509,no-resolve
-
-# === Process Name (Optional client-side matching for Uniswap Wallet) ===
-PROCESS-NAME,Uniswap,no-resolve

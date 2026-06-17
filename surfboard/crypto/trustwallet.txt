@@ -1,5 +1,8 @@
 # Perpetuals: Banned or restricted US, UK, and Hong Kong
 # jp, taiwan
+
+PROCESS-NAME,com.wallet.crypto.trustapp
+
 # === Trust Wallet Global Domains ===
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,trustwallet.com
@@ -16,12 +19,3 @@ DOMAIN-KEYWORD,trustwallet
 IP-CIDR,104.18.22.0/20,no-resolve
 IP-CIDR,172.64.147.0/24,no-resolve
 IP-CIDR,185.199.108.0/22,no-resolve
-
-# === Associated ASNs (Cloudflare / GitHub Pages Anycast) ===
-# IP-ASN,13335,no-resolve
-# IP-ASN,36459,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,Trust,no-resolve
-PROCESS-NAME,TrustWallet,no-resolve
-

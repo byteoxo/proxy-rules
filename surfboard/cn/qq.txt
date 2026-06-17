@@ -1,3 +1,8 @@
+PROCESS-NAME,com.tencent.mobileqq
+PROCESS-NAME,com.qzone
+PROCESS-NAME,com.qq.reader
+PROCESS-NAME,com.tencent.qqmusic
+PROCESS-NAME,com.tencent.qqlive
 DOMAIN-SUFFIX,business-ad.cdn-go.cn
 DOMAIN-SUFFIX,captcha.gtimg.com
 DOMAIN-SUFFIX,captcha.gtimg.cn
@@ -19,4 +24,4 @@ DOMAIN-SUFFIX,ios.rqd.qq.com
 DOMAIN-SUFFIX,downv6.qq.com
 DOMAIN-SUFFIX,qqmc.gtimg.com
 DOMAIN-SUFFIX,wx.mail.qq.com
-PROCESS-NAME,/Applications/QQ.app/
+DOMAIN-SUFFIX,qq.com
