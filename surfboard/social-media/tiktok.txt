@@ -36,10 +36,10 @@ DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
 
 # === TikTok Infrastructure & Video Delivery Edge IPs ===
-IP-CIDR,130.44.212.0/22,no-resolve
-IP-CIDR,13.125.127.0/24,no-resolve
-IP-CIDR,161.117.0.0/16,no-resolve
+IP-CIDR,130.44.212.0/22
+IP-CIDR,13.125.127.0/24
+IP-CIDR,161.117.0.0/16
 
 # === Associated ASNs (ByteDance / TikTok Global Edge) ===
-# IP-ASN,138699,no-resolve
-# IP-ASN,396986,no-resolve
+IP-ASN,138699
+IP-ASN,396986
