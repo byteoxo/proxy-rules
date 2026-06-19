@@ -1,0 +1,3 @@
+DOMAIN-SUFFIX,plasma-one.tech
+DOMAIN-SUFFIX,plasma.to
+DOMAIN-KEYWORD,plasma
