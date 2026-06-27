@@ -16,16 +16,6 @@ DOMAIN-SUFFIX,gateus.com
 DOMAIN-KEYWORD,gateio
 DOMAIN-KEYWORD,gate.io
 
-# === Gate Infrastructure & Anycast CDN IPs ===
-# Gate.io heavily routes real-time data through Cloudflare networks. 
-# The following IP ranges frequently handle their main application proxy layers:
-IP-CIDR,104.18.18.0/20,no-resolve
-IP-CIDR,104.24.0.0/14,no-resolve
-IP-CIDR,172.64.144.0/20,no-resolve
-
-# === Associated Cloudflare ASN ===
-# IP-ASN,13335,no-resolve
-
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Gate,no-resolve
 PROCESS-NAME,Gateio,no-resolve

@@ -8,18 +8,6 @@ DOMAIN-SUFFIX,kraken-assets.com
 DOMAIN-SUFFIX,payward.com
 DOMAIN-KEYWORD,kraken
 
-# === Kraken Infrastructure & Cloud Edge IPs ===
-# Kraken uses Amazon CloudFront and Cloudflare for traffic acceleration 
-# and real-time order book delivery over WebSockets.
-IP-CIDR,104.18.2.0/24,no-resolve
-IP-CIDR,104.18.3.0/24,no-resolve
-IP-CIDR,172.64.150.0/24,no-resolve
-IP-CIDR,143.204.0.0/16,no-resolve
-
-# === Associated ASNs (Cloudflare & Amazon CloudFront) ===
-# IP-ASN,13335,no-resolve
-# IP-ASN,16509,no-resolve
-
 # === Process Name (Optional client-side matching) ===
 PROCESS-NAME,Kraken,no-resolve
 PROCESS-NAME,KrakenPro,no-resolve
