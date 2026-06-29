@@ -1,3 +1,5 @@
+PROCESS-NAME,com.vkontakte.android
+
 DOMAIN-SUFFIX,vkuserphoto.ru
 DOMAIN-SUFFIX,vk.ru
 DOMAIN-SUFFIX,okcdn.ru
@@ -8,4 +10,3 @@ DOMAIN-SUFFIX,vostokgamedev.ru
 DOMAIN-SUFFIX,usedesk.ru
 DOMAIN-SUFFIX,vk.com
 DOMAIN-SUFFIX,vkuser.net
-DOMAIN-SUFFIX,#IP_CIR,213.248.110.87/16

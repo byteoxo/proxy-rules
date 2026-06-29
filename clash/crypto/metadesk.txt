@@ -1,4 +1,5 @@
-# === MetaMask Global Domains ===
+PROCESS-NAME,io.metamask
+
 DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,portfolio.metamask.io
 DOMAIN-SUFFIX,api.metamask.io
@@ -7,17 +8,7 @@ DOMAIN-SUFFIX,cronos.metamask.io
 DOMAIN-SUFFIX,metamask.zendesk.com
 DOMAIN-KEYWORD,metamask
 
-# === MetaMask Backend Infrastructure (Consensys / Infura RPC) ===
-# Infura serves as the primary RPC node provider handling the wallet's Ethereum/EVM queries.
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,infura.net
 DOMAIN-SUFFIX,rpc.infura.io
 DOMAIN-KEYWORD,infura
-
-# === Infrastructure & Cloud Edge IPs (Cloudflare / AWS) ===
-IP-CIDR,104.18.24.0/24,no-resolve
-IP-CIDR,104.18.25.0/24,no-resolve
-IP-CIDR,172.64.154.0/24,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,MetaMask,no-resolve

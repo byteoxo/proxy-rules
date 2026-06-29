@@ -1,4 +1,9 @@
-DOMAIN-SUFFIX,tradingview.com
+PROCESS-NAME,com.tradingview.tradingviewapp
+PROCESS-NAME,TradingView
+
+PROCESS-PATH-WILDCARD,*TradingView*
+PROCESS-PATH-WILDCARD,*TradingView Helper*
 PROCESS-PATH,/Applications/TradingView.app/Contents/Frameworks/TradingView Helper.app/Contents/MacOS/TradingView Helper
 PROCESS-PATH,/Applications/TradingView.app/Contents/Frameworks/TradingView Helper.app/Contents/MacOS/TradingView
-PROCESS-NAME,TradingView
+
+DOMAIN-SUFFIX,tradingview.com

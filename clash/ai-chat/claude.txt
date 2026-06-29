@@ -1,25 +1,7 @@
-# === Anthropic Claude Web & App Domains ===
+PROCESS-NAME,com.anthropic.claude
+
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claudeapp.com
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
-
-# === Asset CDNs & Third-Party Helpers ===
-# Claude utilizes specialized asset buckets and fonts to build its workspace UI
-DOMAIN-SUFFIX,cdn.jsdelivr.net/npm/@anthropic-ai
-DOMAIN-SUFFIX,clerk.claude.ai
-
-# === Infrastructure & Cloud Edge IPs (AWS / Cloudflare Layers) ===
-# Anthropic runs its core infrastructure extensively across Amazon Web Services 
-# and secures public frontends using Cloudflare Anycast networks.
-IP-CIDR,104.18.42.0/24,no-resolve
-IP-CIDR,172.64.146.0/24,no-resolve
-IP-CIDR,18.204.0.0/14,no-resolve
-
-# === Associated ASNs ===
-# IP-ASN,13335,no-resolve
-# IP-ASN,16509,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,Claude,no-resolve

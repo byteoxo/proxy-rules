@@ -1,4 +1,5 @@
-# === OKX Global Domains ===
+PROCESS-NAME,com.okinc.okex.gp,no-resolve
+
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx.w3spaces.com
 DOMAIN-SUFFIX,okex.com
@@ -10,19 +11,3 @@ DOMAIN-SUFFIX,okx-static.com
 DOMAIN-SUFFIX,okx-images.com
 DOMAIN-KEYWORD,okx
 DOMAIN-KEYWORD,okex
-
-# === OKX Infrastructure & Cloud IPs (Fastly / Cloudflare / AWS) ===
-# OKX utilizes major global CDNs. These are the main Anycast IP ranges routing OKX traffic:
-IP-CIDR,104.18.24.0/24,no-resolve
-IP-CIDR,104.18.25.0/24,no-resolve
-IP-CIDR,172.64.154.0/24,no-resolve
-IP-CIDR,151.101.1.69/32,no-resolve
-IP-CIDR,151.101.65.69/32,no-resolve
-
-# === OKX Primary Autonomous System Numbers (ASNs) ===
-# Fastly & Cloudflare infrastructure footprints handling crypto exchange traffic
-# IP-ASN,13335,no-resolve
-# IP-ASN,54113,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,OKX,no-resolve

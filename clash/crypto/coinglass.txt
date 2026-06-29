@@ -1,19 +1,8 @@
-# === Coinglass Global Domains ===
+PROCESS-NAME,com.coinglass.android
+
 DOMAIN-SUFFIX,coinglass.com
 DOMAIN-SUFFIX,bybt.com
 DOMAIN-SUFFIX,coinglassapi.com
 DOMAIN-SUFFIX,coinglass.cn
 DOMAIN-KEYWORD,coinglass
 DOMAIN-KEYWORD,bybt
-
-# === Coinglass Infrastructure & Real-Time Data IPs ===
-# Coinglass heavily utilizes Cloudflare Anycast to serve high-frequency 
-# derivatives charts, long/short ratios, and real-time liquidation data.
-IP-CIDR,104.21.78.0/24,no-resolve
-IP-CIDR,172.67.184.0/24,no-resolve
-
-# === Associated Cloudflare ASN ===
-# IP-ASN,13335,no-resolve
-
-# === Process Name (Optional client-side matching for mobile apps) ===
-PROCESS-NAME,Coinglass,no-resolve

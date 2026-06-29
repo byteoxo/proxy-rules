@@ -1,8 +1,7 @@
+PROCESS-PATH-WILDCARD,*cursor-agent*
+PROCESS-PATH-WILDCARD,*Curso.app*
+
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
-PROCESS-NAME,/Applications/Cursor.app/
-PROCESS-NAME,/Users/acaibird/.local/share/cursor-agent/
-PROCESS-NAME,~/.local/share/cursor-agent/
-

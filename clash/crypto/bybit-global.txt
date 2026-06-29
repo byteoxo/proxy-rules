@@ -1,4 +1,5 @@
-# === Bybit Global Domains ===
+PROCESS-NAME,com.bybit.app
+
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bytick.com
 DOMAIN-SUFFIX,byapis.com
@@ -16,15 +17,3 @@ DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,bybit-exchange.github.io
 DOMAIN-KEYWORD,bybit
 DOMAIN-KEYWORD,bytick
-
-# === Bybit Infrastructure & CDN Footprints ===
-# Bybit uses heavily distributed Anycast networks (via Cloudflare/Akamai/Fastly) 
-# for geo-routing. The keyword rules above cover most, but these are common edge IP fragments:
-IP-CIDR,104.18.16.0/20,no-resolve
-IP-CIDR,172.64.144.0/20,no-resolve
-
-# === Associated ASNs (Cloudflare Proxy Traffic) ===
-# IP-ASN,13335,no-resolve
-
-# === Process Name (Optional client-side matching) ===
-PROCESS-NAME,Bybit,no-resolve

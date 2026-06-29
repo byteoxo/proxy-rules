@@ -1,4 +1,5 @@
-# name: rednote, xiaohongshu
+PROCESS-NAME,com.xingin.xhs
+
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
